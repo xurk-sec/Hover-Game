@@ -37,8 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/move_warship.cs" />
-     <Compile Include="Assets/Scripts/shoot.cs" />
+     <Compile Include="Assets/Scripts/on_collision.cs" />
      <Compile Include="Assets/Scripts/turrets.cs" />
+     <Compile Include="Assets/Scripts/onClickQuit.cs" />
+     <Compile Include="Assets/Scripts/shoot.cs" />
+     <Compile Include="Assets/Scripts/bullet_on_collision.cs" />
+     <Compile Include="Assets/Scripts/OnClickRestart.cs" />
+     <Compile Include="Assets/Scripts/onClickStart.cs" />
      <None Include="Assets/Prefabs/Hover_files/Shaders/Transparent Bumped Specular Cutout.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1c2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
